@@ -1,0 +1,36 @@
+{
+  "id": "c946969f-fa79-4212-9c46-3ce190d9ad63",
+  "name": "ADCI-DEC21",
+  "publisher": "InTWO",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "55d1a0dc-e961-42e7-8058-60227cb6ce04",
+      "name": "ADCI",
+      "publisher": "Default publisher",
+      "version": "1.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "19.0.0.0",
+  "idRanges": [
+    {
+      "from": 60000,
+      "to": 60100
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "8.0"
+}
