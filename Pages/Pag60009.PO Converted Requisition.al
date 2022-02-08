@@ -6,7 +6,7 @@ page 60009 "PO Converted Requisition"
     PageType = List;
     SourceTable = "Purchase Requisition Header";
     UsageCategory = Lists;
-    CardPageId = "Purchase Requisition";
+    CardPageId = "PO Converted Requisition Card";
     PromotedActionCategories = 'New,Process,Report,Request Approval,Print/Send,Navigate,Related';
     DataCaptionFields = "No.", Description;
     Editable = false;

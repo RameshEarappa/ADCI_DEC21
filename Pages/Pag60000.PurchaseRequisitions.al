@@ -309,6 +309,7 @@ page 60000 "Purchase Requisitions"
                     var
                         InitWf: Codeunit "Init Workflow";
                     begin
+                        Rec.TestField(Status, Rec.Status::"Pending Approval");
                         InitWf.OnCancelApproval_PR(Rec);
                         //SetControl();
                     end;

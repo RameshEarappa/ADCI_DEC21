@@ -181,6 +181,7 @@ codeunit 60000 "Requisition Utility"
                 RecLines.TestField("No.");
                 RecLines.TestField(Quantity);
             until RecLines.Next() = 0;
-        end
+        end else
+            Error('Purchase Requisition Line does not exists for Requisition No. %1', RecHeader."No.");
     end;
 }
